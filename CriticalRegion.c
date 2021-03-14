@@ -119,3 +119,59 @@ int main(int argc, const char* argv[]) {
 // Program ended with exit code: 0
 //
 //========================================================================
+
+//========================================================================
+//MY OUTPUT - GRIER
+//========================================================================
+//                                                 CRITICAL(T2)
+//                         CRITICAL(T1)
+// CRITICAL(T0)
+//                                                 out of CRITICAL(T2)
+//                                                 into non-critical(T2)
+//                                                 CRITICAL(T2)
+//                         out of CRITICAL(T1)
+//                         into non-critical(T1)
+//                         CRITICAL(T1)
+// out of CRITICAL(T0)
+// into non-critical(T0)
+// CRITICAL(T0)
+//                                                 out of CRITICAL(T2)
+//                                                 into non-critical(T2)
+//                                                 CRITICAL(T2)
+//                         out of CRITICAL(T1)
+//                         into non-critical(T1)
+//                         CRITICAL(T1)
+// out of CRITICAL(T0)
+// into non-critical(T0)
+// CRITICAL(T0)
+//                                                 out of CRITICAL(T2)
+//                                                 into non-critical(T2)
+//                                                 CRITICAL(T2)
+//                         out of CRITICAL(T1)
+//                         into non-critical(T1)
+//                         CRITICAL(T1)
+// out of CRITICAL(T0)
+// into non-critical(T0)
+// CRITICAL(T0)
+//                                                 out of CRITICAL(T2)
+//                                                 into non-critical(T2)
+//                                                 CRITICAL(T2)
+//                         out of CRITICAL(T1)
+//                         into non-critical(T1)
+//                         CRITICAL(T1)
+// out of CRITICAL(T0)
+// into non-critical(T0)
+// CRITICAL(T0)
+//                                                 out of CRITICAL(T2)
+//                                                 into non-critical(T2)
+//                         out of CRITICAL(T1)
+//                         into non-critical(T1)
+// out of CRITICAL(T0)
+// into non-critical(T0)
+
+// all 3 threads joined
+
+// End of program
+//========================================================================
+//END OF MY OUTPUT - GRIER
+//========================================================================
